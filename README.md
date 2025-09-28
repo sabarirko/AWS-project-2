@@ -14,8 +14,7 @@ The solution uses **AWS CloudFormation** to build a private VPC, deploys an appl
 ---
 
 ## ⚙️ Architecture
-![Architecture Diagram](screenshots/architecture.png)  
-*(Replace with your Healthcare SNS architecture diagram)*  
+![Architecture Diagram](screenshots/healthcare_sns_vpc_diagram.png)  
 
 ---
 
