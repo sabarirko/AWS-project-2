@@ -34,5 +34,12 @@ The solution uses **AWS CloudFormation** to build a private VPC, deploys an appl
 
 4. **Testing**
    - Subscribed devices to the SNS topic.  
-   - Verified **secure delivery** of patient report notifications.  
+   - Verified **secure delivery** of patient report notifications.
+
+---
+
+## ✅ Outcomes
+- Built a **secure messaging system** for healthcare data delivery.  
+- Improved **privacy & compliance** by using private SNS publishing.  
+- Demonstrated **real-world industry use case** (Healthcare domain).
 
