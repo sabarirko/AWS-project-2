@@ -1,0 +1,11 @@
+$ aws sns create-topic --name PatientReportTopic
+{
+"TopicArn": "arn:aws:sns:ap-northeast-1:242201279737:PatientReportTopic"
+}
+
+$ aws sns publish \
+--topic-arn arn:aws:sns:ap-northeast-1:242201279737:PatientReportTopic \
+--message "Your lab report is ready. Please check the app."
+{
+"MessageId": "7b5ba6df-957e-51af-a12a-cfadde0c1d43"
+}
